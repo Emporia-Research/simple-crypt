@@ -4,7 +4,7 @@ from distutils.core import setup
 setup(
     name = 'simple-crypt',
     keywords = ['aes', 'encrypt', 'decrypt', 'encryption', 'decryption', 'pbkdf2', 'hmac', 'secure', 'crypto', 'cryptography'],
-    url = 'https://github.com/andrewcooke/simple-crypt',
+    url = 'https://github.com/Emporia-Research/simple-crypt',
     packages = ['simplecrypt'],
     package_dir = {'': 'src'},
     version = '4.1.7',
@@ -64,7 +64,7 @@ Why Should I Use Simple Crypt?
 What Else Should I Know?
 ------------------------
 
-* You must also install ``pycrypto``.  **Note** that pycrypto has
+* You must also install ``pycryptodome``.  **Note** that the original pycrypto has
   parts written in C so requires a full python install.  On some unix
   systems that may mean adding a package like ``python-dev`` from your
   package manager.
